@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar JS</title>
+    <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/146858/isolated/preview/bc1e175617f4066c16d64f863e1c6ad4-icone-do-placar-de-futebol.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Placar JS</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Vitórias</th>
+                        <th>Empates</th>
+                        <th>Derrotas</th>
+                        <th>Pontos</th>
+                        <th colspan="4">Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="player-table"></tbody>
+            </table>
+            <div>
+                <div>
+                    <label for="add-name">Novo Jogador</label>
+                    <input type="text" name="add-name" id="add-name" placeholder="Digite o nome do jogador">
+                </div>
+                <div>
+                    <label for="remove-name">Remover Jogador</label>
+                    <input type="text" name="remove-name" id="remove-name" placeholder="Digite o nome a ser removido">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

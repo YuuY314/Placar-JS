@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: #333333;
+    text-align: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+table {
+    border: 2px solid #cccccc;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.td-btn {
+    padding: 0;
+}
+
+th, tr, td {
+    border: 3px solid #cccccc;
+    color: white;
+}
+
+button {
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#add-player, #remove-player {
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+main div div {
+    width: 100%;
+}
+
+main div div div {
+    display: inline-block;
+    color: orangered;
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+    width: 50%;
+}
+
+input {
+    outline: none;
+    padding: 10px;
+    width: 50%;
+}
