@@ -1,10 +1,10 @@
 # Placar JS
 
-Placar de pontuação pouco detalhado mas funcional
+Placar de pontuação pouco detalhado mas funcional.
 
-Dessa vez não tive o mesmo empenho em relação aos outros projetos
+Dessa vez não tive o mesmo empenho em relação aos outros projetos.
 
-Link para acessar:
+Link para acessar: https://yuuy314.github.io/Placar-JS/
 
 CodePen: https://codepen.io/YuuY314/pen/BaPMrKZ
 
